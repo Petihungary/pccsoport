@@ -37,7 +37,7 @@
     content: '';
     height: 3px;
     width: 0;
-    background: aqua;
+    background: red;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -70,7 +70,7 @@ button{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid aqua;
+    border: 2px solid red;
     background: transparent;
     color: white;
     cursor: pointer;
@@ -78,7 +78,7 @@ button{
     overflow: hidden;
 }
 span{
-    background: aqua;
+    background: red;
     height: 100%;
     width: 0;
     border-radius: 25px;
