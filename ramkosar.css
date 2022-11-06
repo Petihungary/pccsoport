@@ -116,3 +116,6 @@ body{
 h1{
     text-decoration: underline;
 }
+#athuzas{
+    text-decoration: line-through;
+}
