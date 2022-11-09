@@ -3,65 +3,48 @@
     padding: 0;
     font-family: sans-serif;
 }
-.banner{
+
+body{
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(háttér2.jpg);
     background-size: cover;
     background-position: center;
 }
-.navbar{
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+h1{
+    font-size: 70px;
+    margin-top: 80px;
+    color: white;
+    text-align: center;
 }
 .logo{
     width: 120px;
     cursor: pointer;
 }
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
 }
-.navbar ul li a{
-    text-decoration: none;
+h2{
     color: white;
-    text-transform: uppercase;
+    text-decoration: underline;
 }
-.navbar ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: purple;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    transition: 0.5s;
-}
-.navbar ul li:hover::after{
-    width: 100%;
-}
-.szoveg{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
+h4{
     color: white;
+    text-decoration: underline;
 }
-.szoveg h1{
-    font-size: 70px;
-    margin-top: 80px;
+#gephaz{
+    width: 300px;
+    height:200px;
+    object-fit: cover;
+    border: 1px solid silver;
+    margin-bottom: 20px;
 }
-.szoveg p{
-    margin: 20px auto;
-    font-weight: 100;
-    line-height: 20px;
+p{
+    color:white;
 }
 button{
     width: 200px;
@@ -70,7 +53,7 @@ button{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid purple;
+    border: 2px solid red;
     background: transparent;
     color: white;
     cursor: pointer;
@@ -78,7 +61,7 @@ button{
     overflow: hidden;
 }
 span{
-    background: purple;
+    background: red;
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -93,4 +76,11 @@ button:hover span{
 }
 button:hover{
     border: none;
+}
+h3{
+    color: white;
+    text-decoration: underline;
+}
+li{
+    color:white;
 }
